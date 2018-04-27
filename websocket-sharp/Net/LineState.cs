@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * LineState.cs
@@ -48,3 +49,4 @@ namespace WebSocketSharp.Net
     Lf
   }
 }
+#endif

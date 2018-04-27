@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * HttpBase.cs
@@ -206,3 +207,4 @@ namespace WebSocketSharp
     #endregion
   }
 }
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * HttpRequestEventArgs.cs
@@ -253,3 +254,4 @@ namespace WebSocketSharp.Server
     #endregion
   }
 }
+#endif

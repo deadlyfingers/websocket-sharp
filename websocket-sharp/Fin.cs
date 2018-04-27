@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * Fin.cs
@@ -49,3 +50,4 @@ namespace WebSocketSharp
     Final = 0x1
   }
 }
+#endif

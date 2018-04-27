@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * ErrorEventArgs.cs
@@ -107,3 +108,4 @@ namespace WebSocketSharp
     #endregion
   }
 }
+#endif

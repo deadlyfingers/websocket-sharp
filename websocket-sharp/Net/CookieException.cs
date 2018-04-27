@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * CookieException.cs
@@ -141,3 +142,4 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+#endif
