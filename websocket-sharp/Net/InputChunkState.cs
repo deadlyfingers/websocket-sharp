@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * InputChunkState.cs
@@ -50,3 +51,4 @@ namespace WebSocketSharp.Net
     End
   }
 }
+#endif

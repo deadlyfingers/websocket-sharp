@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * QueryStringCollection.cs
@@ -66,3 +67,4 @@ namespace WebSocketSharp.Net
     }
   }
 }
+#endif

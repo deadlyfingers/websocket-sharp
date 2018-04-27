@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * ByteOrder.cs
@@ -45,3 +46,4 @@ namespace WebSocketSharp
     Big
   }
 }
+#endif

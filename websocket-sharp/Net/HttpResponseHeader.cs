@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * HttpResponseHeader.cs
@@ -187,3 +188,4 @@ namespace WebSocketSharp.Net
     SecWebSocketVersion
   }
 }
+#endif

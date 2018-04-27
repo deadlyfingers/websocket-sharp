@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * HttpListenerPrefix.cs
@@ -226,3 +227,4 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+#endif

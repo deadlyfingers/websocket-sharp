@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * WebSocketState.cs
@@ -63,3 +64,4 @@ namespace WebSocketSharp
     Closed = 3
   }
 }
+#endif

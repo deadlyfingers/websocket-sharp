@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * ServerState.cs
@@ -38,3 +39,4 @@ namespace WebSocketSharp.Server
     Stop
   }
 }
+#endif

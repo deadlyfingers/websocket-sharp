@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * TcpListenerWebSocketContext.cs
@@ -451,3 +452,4 @@ namespace WebSocketSharp.Net.WebSockets
     #endregion
   }
 }
+#endif

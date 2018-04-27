@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * WebSocketServiceHost`1.cs
@@ -100,3 +101,4 @@ namespace WebSocketSharp.Server
     #endregion
   }
 }
+#endif

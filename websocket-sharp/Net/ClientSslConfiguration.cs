@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 ﻿#region License
 /*
  * ClientSslConfiguration.cs
@@ -289,3 +290,4 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+#endif

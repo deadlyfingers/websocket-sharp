@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * WebHeaderCollection.cs
@@ -1457,3 +1458,4 @@ namespace WebSocketSharp.Net
     #endregion
   }
 }
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || ENABLE_MONO
 #region License
 /*
  * PayloadData.cs
@@ -232,3 +233,4 @@ namespace WebSocketSharp
     #endregion
   }
 }
+#endif
